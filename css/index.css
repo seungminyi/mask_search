@@ -1,0 +1,72 @@
+@import "./reset.css";
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+}
+
+.searchBar{
+    height: 30px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    align-items: center;
+}
+
+.searchBar-address{
+    width: 90%;
+    height: 100%;
+    border: none;
+    font-size: 20px;
+}
+
+.searchBar-address:focus {
+    outline:none;
+}
+
+
+.logo {
+    width: 500px;
+}
+
+.searchBar-search:hover, .searchBar-gps:hover{
+    font-size: 20px;
+}
+
+.button {
+    width: 300px;
+    height: 100px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .button:hover {
+    background-color: rgb(16, 17, 17);
+    box-shadow: 0px 15px 20px rgba(16, 17, 17, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
