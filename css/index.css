@@ -24,6 +24,7 @@ body {
     margin-bottom: 50px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
     align-items: center;
+    display: flex;
 }
 
 .searchBar-address{
@@ -40,6 +41,11 @@ body {
 
 .logo {
     width: 500px;
+    max-width: 100%;
+}
+
+.searchBar-gps{
+    margin-left: 5px;
 }
 
 .searchBar-search:hover, .searchBar-gps:hover{
