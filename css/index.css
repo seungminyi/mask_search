@@ -5,6 +5,10 @@ html {
     width: 100%;
 }
 
+a:visited{
+    color:black;
+}
+
 body {
     height: 100%;
     text-align: center;
@@ -15,6 +19,10 @@ body {
 
 
 .container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
 }
 
 .searchBar{
@@ -25,13 +33,15 @@ body {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
     align-items: center;
     display: flex;
+    width: 85%;
 }
 
 .searchBar-address{
-    width: 90%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     border: none;
     font-size: 20px;
+    margin: 0px 10px;
 }
 
 .searchBar-address:focus {
@@ -44,12 +54,16 @@ body {
     max-width: 100%;
 }
 
+.searchBar-search, .searchBar-gps{
+    font-size: 30px;
+}
+
 .searchBar-gps{
-    margin-left: 5px;
+    margin: 0px 10px;
 }
 
 .searchBar-search:hover, .searchBar-gps:hover{
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .button {
@@ -70,7 +84,7 @@ body {
     outline: none;
     }
   
-  .button:hover {
+.button:hover {
     background-color: rgb(16, 17, 17);
     box-shadow: 0px 15px 20px rgba(16, 17, 17, 0.4);
     color: #fff;

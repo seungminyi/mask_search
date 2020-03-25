@@ -1,0 +1,75 @@
+@import "./reset.css";
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(16, 17, 17);
+    display: flex;
+    align-items: center;
+}
+
+.back{
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.searchBar{
+    height: 30px;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    display: flex;
+    width: 85%;
+    position: absolute;
+    background-color: white;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.searchBar-address{
+    width: 90%;
+    height: 80%;
+    border: none;
+    font-size: 20px;
+    margin: 0px 10px;
+}
+
+.searchBar-address:focus {
+    outline:none;
+}
+
+.searchBar-search, .searchBar-gps{
+    font-size: 30px;
+}
+
+.searchBar-gps{
+    margin: 0px 10px;
+}
+
+.searchBar-search:hover, .searchBar-gps:hover{
+    font-size: 40px;
+}
+
+.map{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
