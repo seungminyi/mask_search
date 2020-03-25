@@ -5,10 +5,6 @@ html {
     width: 100%;
 }
 
-a:visited{
-    color:black;
-}
-
 body {
     height: 100%;
     text-align: center;
@@ -17,6 +13,13 @@ body {
     align-items: center;
 }
 
+a:link{
+    color:black;
+}
+
+a:visited{
+    color:black;
+}
 
 .container{
     display: flex;
