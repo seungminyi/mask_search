@@ -1,0 +1,22 @@
+{
+  "name": "mask_search",
+  "version": "1.0.0",
+  "description": "mask_search_app",
+  "main": "server.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seungminyi/mask_search.git"
+  },
+  "keywords": [
+    "mask_search"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seungminyi/mask_search/issues"
+  },
+  "homepage": "https://github.com/seungminyi/mask_search#readme"
+}
