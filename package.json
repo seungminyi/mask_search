@@ -21,6 +21,6 @@
   "homepage": "https://github.com/seungminyi/mask_search#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "ejs": "~2.4.1"
+    "ejs": "~2.5.5"
   }
 }
